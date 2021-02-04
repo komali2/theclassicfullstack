@@ -102,3 +102,40 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Backend
+backend/config/local.js
+backend/node_modules/
+backend/.tmp
+backend/*~
+backend/*#
+backend/.DS_STORE
+backend/.netbeans
+backend/nbproject
+backend/.idea
+backend/*.iml
+backend/.vscode
+backend/.node_history
+backend/dump.rdb
+backend/npm-debug.log
+backend/lib-cov
+backend/*.seed
+backend/*.log
+backend/*.out
+backend/*.pid
+
+# Frontend
+# dependencies
+frontend/node_modules
+frontend/*.pnp
+frontend/*.pnp.js
+frontend/coverage
+frontend/build
+frontend/.DS_Store
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
