@@ -5,7 +5,7 @@ import { createStore } from 'redux';
 import './index.css';
 import App from './App.jsx';
 import reportWebVitals from './reportWebVitals';
-import reducer from './store/reducers/reducers.js'
+import reducer from './store5reducers/reducers.js'
 
 const store = createStore(reducer)
 
